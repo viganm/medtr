@@ -208,11 +208,18 @@
 @media (max-width: 768px) {
   .hero {
     padding: 4rem 1.5rem;
-    min-height: 70vh;
+    padding-top: calc(4rem + 180px);
+    min-height: calc(100vh - 100px);
+    margin-top: -140px;
+  }
+
+  .hero-overlay {
+    top: -140px;
   }
 
   .hero-title {
     font-size: 2rem;
+    margin-top: 2rem;
   }
 
   .hero-subtitle {

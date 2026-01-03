@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "../hooks/useTranslation";
-import logoImage from "../images/logo_rectangle.jpg";
 import "./Footer.css";
 
 const Footer = () => {
@@ -11,13 +10,6 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-content">
           <div className="footer-section">
-            <Link to="/" className="footer-logo">
-              <img
-                src={logoImage}
-                alt={t.companyName}
-                className="footer-logo-image"
-              />
-            </Link>
             <p className="footer-description">{t.footer.description}</p>
           </div>
 

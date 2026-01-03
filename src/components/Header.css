@@ -80,6 +80,11 @@
   gap: 4px;
   background: none;
   padding: 0.5rem;
+  position: relative;
+  width: 25px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .hamburger {
@@ -88,10 +93,26 @@
   background: #6C757D;
   transition: all 0.3s;
   border-radius: 2px;
+  position: absolute;
+  left: 0;
+}
+
+.hamburger:nth-child(1) {
+  top: 0;
+}
+
+.hamburger:nth-child(2) {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.hamburger:nth-child(3) {
+  bottom: 0;
 }
 
 .hamburger.open:nth-child(1) {
-  transform: rotate(45deg) translate(8px, 8px);
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
 }
 
 .hamburger.open:nth-child(2) {
@@ -99,7 +120,9 @@
 }
 
 .hamburger.open:nth-child(3) {
-  transform: rotate(-45deg) translate(7px, -7px);
+  bottom: auto;
+  top: 50%;
+  transform: translateY(-50%) rotate(-45deg);
 }
 
 @media (max-width: 1024px) {
