@@ -37,9 +37,10 @@ const Footer = () => {
           <div className="footer-section">
             <h4 className="footer-heading">{t.footer.contact}</h4>
             <ul className="footer-contact">
-              <li>Email: info@medtr.de</li>
-              <li>Phone: +90 (0) 546 567 32 16</li>
-              <li>Address: Turkey</li>
+              <li>Email: Deutscheemed@gmail.com</li>
+              <li>Phone: +90 (0) 501 048 87 03</li>
+              <li>Phone: +49 (0) 176 74557659</li>
+              <li>Address: Büyükşehir Mah.No 10 Beylikdüzü İstanbul</li>
             </ul>
           </div>
         </div>

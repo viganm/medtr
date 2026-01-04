@@ -1,24 +1,23 @@
-import { Link } from 'react-router-dom'
-import { useTranslation } from '../hooks/useTranslation'
-import AnimatedSection from '../components/AnimatedSection'
-import nurseImage from '../images/nurse3.jpg'
-import './Home.css'
+import { Link } from "react-router-dom";
+import { useTranslation } from "../hooks/useTranslation";
+import AnimatedSection from "../components/AnimatedSection";
+import nurseImage from "../images/nurse3.jpg";
+import "./Home.css";
 
 const Home = () => {
-  const { t } = useTranslation()
+  const { t } = useTranslation();
 
   return (
     <div className="home">
-      <section className="hero" style={{ backgroundImage: `url(${nurseImage})` }}>
+      <section
+        className="hero"
+        style={{ backgroundImage: `url(${nurseImage})` }}
+      >
         <div className="hero-overlay"></div>
         <div className="hero-container">
           <div className="hero-content">
-            <h1 className="hero-title">
-              {t.home.heroTitle}
-            </h1>
-            <p className="hero-subtitle">
-              {t.home.heroSubtitle}
-            </p>
+            <h1 className="hero-title">{t.home.heroTitle}</h1>
+            <p className="hero-subtitle">{t.home.heroSubtitle}</p>
             <div className="hero-buttons">
               <Link to="/contact" className="btn btn-primary">
                 {t.home.getStarted}
@@ -40,7 +39,9 @@ const Home = () => {
             <AnimatedSection delay={100}>
               <div className="feature-card">
                 <div className="feature-icon">🌍</div>
-                <h3 className="feature-title">{t.home.internationalExpertise}</h3>
+                <h3 className="feature-title">
+                  {t.home.internationalExpertise}
+                </h3>
                 <p className="feature-description">
                   {t.home.internationalExpertiseDesc}
                 </p>
@@ -67,7 +68,9 @@ const Home = () => {
             <AnimatedSection delay={400}>
               <div className="feature-card">
                 <div className="feature-icon">🎓</div>
-                <h3 className="feature-title">{t.home.professionalDevelopment}</h3>
+                <h3 className="feature-title">
+                  {t.home.professionalDevelopment}
+                </h3>
                 <p className="feature-description">
                   {t.home.professionalDevelopmentDesc}
                 </p>
@@ -82,7 +85,7 @@ const Home = () => {
           <div className="stats-grid">
             <AnimatedSection delay={100}>
               <div className="stat-item">
-                <div className="stat-number">500+</div>
+                <div className="stat-number">200+</div>
                 <div className="stat-label">{t.home.nursesPlaced}</div>
               </div>
             </AnimatedSection>
@@ -94,13 +97,13 @@ const Home = () => {
             </AnimatedSection>
             <AnimatedSection delay={300}>
               <div className="stat-item">
-                <div className="stat-number">95%</div>
+                <div className="stat-number">97%</div>
                 <div className="stat-label">{t.home.successRate}</div>
               </div>
             </AnimatedSection>
             <AnimatedSection delay={400}>
               <div className="stat-item">
-                <div className="stat-number">15+</div>
+                <div className="stat-number">20+</div>
                 <div className="stat-label">{t.home.countries}</div>
               </div>
             </AnimatedSection>
@@ -113,9 +116,7 @@ const Home = () => {
           <AnimatedSection>
             <div className="cta-content">
               <h2 className="cta-title">{t.home.ctaTitle}</h2>
-              <p className="cta-description">
-                {t.home.ctaDescription}
-              </p>
+              <p className="cta-description">{t.home.ctaDescription}</p>
               <Link to="/contact" className="btn btn-primary btn-large">
                 {t.home.contactUsToday}
               </Link>
@@ -124,7 +125,7 @@ const Home = () => {
         </div>
       </section>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

@@ -63,8 +63,11 @@ const Contact = () => {
                     <div className="contact-icon">📧</div>
                     <div className="contact-detail">
                       <h3 className="detail-label">{t.contact.email}</h3>
-                      <a href="mailto:info@medtr.de" className="detail-value">
-                        info@medtr.de
+                      <a
+                        href="mailto:Deutscheemed@gmail.com"
+                        className="detail-value"
+                      >
+                        Deutscheemed@gmail.com
                       </a>
                     </div>
                   </div>
@@ -73,8 +76,11 @@ const Contact = () => {
                     <div className="contact-icon">📞</div>
                     <div className="contact-detail">
                       <h3 className="detail-label">{t.contact.phone}</h3>
-                      <a href="tel:+905465673216" className="detail-value">
-                        +90 (0) 546 567 32 16
+                      <a href="tel:+905010488703" className="detail-value">
+                        +90 (0) 501 048 87 03
+                      </a>
+                      <a href="tel:+4917674557659" className="detail-value">
+                        +49 (0) 176 74557659
                       </a>
                     </div>
                   </div>
@@ -83,7 +89,9 @@ const Contact = () => {
                     <div className="contact-icon">📍</div>
                     <div className="contact-detail">
                       <h3 className="detail-label">{t.contact.address}</h3>
-                      <p className="detail-value">Turkey</p>
+                      <p className="detail-value">
+                        Büyükşehir Mah.No 10 Beylikdüzü İstanbul
+                      </p>
                     </div>
                   </div>
 
