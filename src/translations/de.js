@@ -89,8 +89,11 @@ export const de = {
     step8Desc: 'Nach Ihrer Ankunft unterstützen wir Ihre Integration weiterhin durch kulturelle Orientierung, Networking-Möglichkeiten und Zugang zu beruflichen Entwicklungsressourcen.',
     timelineTitle: 'Typischer Zeitplan',
     preparationPhase: 'Vorbereitungsphase',
+    preparationDuration: '3-6 Monate',
     applicationPhase: 'Bewerbung & Bearbeitung',
+    applicationDuration: '2-4 Monate',
     relocationPhase: 'Umzug & Integration',
+    relocationDuration: '1-2 Monate',
     timelineNote: '* Der Zeitplan kann je nach individuellen Umständen und Anforderungen variieren',
   },
   contact: {

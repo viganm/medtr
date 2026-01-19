@@ -64,10 +64,10 @@ const Contact = () => {
                     <div className="contact-detail">
                       <h3 className="detail-label">{t.contact.email}</h3>
                       <a
-                        href="mailto:Deutscheemed@gmail.com"
+                        href="mailto:deutscheemed@gmail.com"
                         className="detail-value"
                       >
-                        Deutscheemed@gmail.com
+                        deutscheemed@gmail.com
                       </a>
                     </div>
                   </div>
@@ -127,7 +127,7 @@ const Contact = () => {
                 )}
                 <form
                   className="contact-form"
-                  action="https://formsubmit.co/vigan.mustafa.vm@gmail.com"
+                  action="https://formsubmit.co/deutscheemed@gmail.com"
                   method="POST"
                   onSubmit={handleSubmit}
                 >

@@ -89,8 +89,11 @@ export const tr = {
     step8Desc: 'Varışınızdan sonra, kültürel oryantasyon, ağ kurma fırsatları ve mesleki gelişim kaynaklarına erişim yoluyla entegrasyonunuzu desteklemeye devam ediyoruz.',
     timelineTitle: 'Tipik Zaman Çizelgesi',
     preparationPhase: 'Hazırlık Aşaması',
+    preparationDuration: '3-6 ay',
     applicationPhase: 'Başvuru ve İşleme',
+    applicationDuration: '2-4 ay',
     relocationPhase: 'Taşınma ve Entegrasyon',
+    relocationDuration: '1-2 ay',
     timelineNote: '* Zaman çizelgesi bireysel koşullara ve gereksinimlere göre değişebilir',
   },
   contact: {

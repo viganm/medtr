@@ -89,8 +89,11 @@ export const en = {
     step8Desc: 'After your arrival, we continue to support your integration through cultural orientation, networking opportunities, and access to professional development resources.',
     timelineTitle: 'Typical Timeline',
     preparationPhase: 'Preparation Phase',
+    preparationDuration: '3-6 months',
     applicationPhase: 'Application & Processing',
+    applicationDuration: '2-4 months',
     relocationPhase: 'Relocation & Integration',
+    relocationDuration: '1-2 months',
     timelineNote: '* Timeline may vary based on individual circumstances and requirements',
   },
   contact: {

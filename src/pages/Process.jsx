@@ -58,15 +58,15 @@ const Process = () => {
               <div className="timeline-content">
                 <div className="timeline-item">
                   <span className="timeline-phase">{t.process.preparationPhase}</span>
-                  <span className="timeline-duration">3-6 months</span>
+                  <span className="timeline-duration">{t.process.preparationDuration}</span>
                 </div>
                 <div className="timeline-item">
                   <span className="timeline-phase">{t.process.applicationPhase}</span>
-                  <span className="timeline-duration">2-4 months</span>
+                  <span className="timeline-duration">{t.process.applicationDuration}</span>
                 </div>
                 <div className="timeline-item">
                   <span className="timeline-phase">{t.process.relocationPhase}</span>
-                  <span className="timeline-duration">1-2 months</span>
+                  <span className="timeline-duration">{t.process.relocationDuration}</span>
                 </div>
               </div>
               <p className="timeline-note">
